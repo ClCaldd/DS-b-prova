@@ -30,6 +30,7 @@ class PersonController {
             return res.status(500).send({ error: error.message });
         }
     };
+    //#
 
     static async deleteById(req, res) {
         const { id } = req.params;
